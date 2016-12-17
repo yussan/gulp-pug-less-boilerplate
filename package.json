@@ -1,0 +1,23 @@
+{
+  "name": "example-jade-less",
+  "version": "1.0.0",
+  "description": "example-jade-less project to build web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmore/example-pug-lesss.git"
+  },
+  "keywords": [
+    "pug",
+    "less"
+  ],
+  "author": "yussan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idmore/example-pug-lesss/issues"
+  },
+  "homepage": "https://github.com/idmore/example-pug-lesss#readme"
+}
