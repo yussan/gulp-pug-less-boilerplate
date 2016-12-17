@@ -1,5 +1,5 @@
-# example-pug-lesss
-example-pug-lesss project to build web pages
+# example-pug-less
+example-pug-less project to build web pages
 
 ## Getting started 
 ### First time
