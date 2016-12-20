@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/idmore/example-pug-lesss/issues"
   },
-  "homepage": "https://github.com/idmore/example-pug-lesss#readme"
+  "homepage": "https://github.com/idmore/example-pug-lesss#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-pug": "^3.2.0"
+  }
 }
