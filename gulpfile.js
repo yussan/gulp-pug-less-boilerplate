@@ -1,12 +1,8 @@
-/**
- * Created by yussan on 17/12/16.
- */
 const gulp = require('gulp'),
     path = require('path'),
     pug = require('gulp-pug'),
-    less = require('gulp-less'),
-    cssmin = require('gulp-cssmin'),
-    browserSync = require('browser-sync');
+    less = require('gulp-less')
+browserSync = require('browser-sync');
 
 const SITE_DIR = '_site',
     LESS_DIR = 'less',
@@ -31,7 +27,6 @@ gulp.task('less', function(){
             includePaths: LESS_DIR,
         }))
         .pipe(gulp.dest(CSS_DIR))
-        .pipe(cssmin())
         .pipe(browserSync.reload({stream: true}))
 })
 
