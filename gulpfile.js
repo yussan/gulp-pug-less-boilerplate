@@ -2,7 +2,7 @@ const gulp = require('gulp'),
     path = require('path'),
     pug = require('gulp-pug'),
     less = require('gulp-less')
-    browserSync = require('browser-sync');
+browserSync = require('browser-sync');
 
 const SITE_DIR = '_site',
     LESS_DIR = 'less',
@@ -13,9 +13,9 @@ const SITE_DIR = '_site',
  */
 gulp.task('pug', function(){
     gulp.src('*.pug')
-    .pipe(pug({pretty: true}))
-    .pipe(gulp.dest(SITE_DIR))
-    .pipe(browserSync.reload({stream: true}))
+        .pipe(pug({pretty: true}))
+        .pipe(gulp.dest(SITE_DIR))
+        .pipe(browserSync.reload({stream: true}))
 })
 
 /**

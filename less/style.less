@@ -1,3 +1,49 @@
+@import "const";
+
 html, body, navbar, header, footer{
-  margin: 0
+  margin: 0;
+}
+
+.padding-item{
+  padding:10px;
+}
+
+.fullwidth{
+  width:100%;
+}
+
+.chat-title, .chat-block, .chat-editor{
+  .fullwidth;
+}
+
+.chat-title {
+  background: @color_blue_1;
+  color: @color_white_1;
+  padding:10px 0;
+  .text{
+    .padding-item;
+  };
+}
+
+.chat-block{
+  .chat-item{
+    .padding-item;
+  };
+  .chat-item.me{
+    background: @color_me;
+  };
+  .chat-item.opponent{
+    background: @color_opponent;
+  };
+}
+
+.chat-editor{
+  position: absolute;
+  bottom: 0;
+  div {
+    .padding-item;
+  }
+  textarea{
+    .fullwidth
+  }
 }
