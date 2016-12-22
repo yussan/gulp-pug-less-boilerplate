@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "username": "aika"
+    },
+    "text": "are you ready ?",
+    "created_at": "2 mins ago"
+  },
+  {
+    "id": 2,
+    "user": {
+      "username": "rin"
+    },
+    "text": "okay let's get started",
+    "created_at": "a moment ago"
+  }
+]
