@@ -1,6 +1,9 @@
 # example-pug-less
 example-pug-less project to build web pages
 
+## System Requirement
+install NODEJS and NPM on your computer.
+
 ## Getting started 
 ### First time
 ```
