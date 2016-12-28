@@ -6,7 +6,7 @@ install NODEJS and NPM on your computer.
 
 ## Getting started 
 ### First time
-Make sure it is installed `NODE JS` and `NPM` in your system, the execute this command :
+Make sure it is installed `NODE JS` and `NPM` in your system, then execute this command :
 ```
 npm install
 ```
