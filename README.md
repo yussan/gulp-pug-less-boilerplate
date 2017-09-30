@@ -1,5 +1,7 @@
 # example-pug-less
-example-pug-less project to build web pages
+example-pug-less project to build web pages.
+
+*) This repo is not deprecated, i just migrated not to use Gulp and Less anymore because now i have used Grunt to replace Gulp and Sass to replace Gulp. You can find boilerplatenya repo here [grunt-pug-sass-boilerplate](https://github.com/yussan/grunt-pug-sass-boilerplate)
 
 ## Getting started 
 ### First time
